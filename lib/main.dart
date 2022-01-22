@@ -38,8 +38,14 @@ class _MyHomePageState extends State<MyHomePage> {
               Expanded(
                   flex: 2,
                   child: Container(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 20),
+                    child: Text("ini text dalam container"),
                     color: Colors.red,
                   )),
+              const SizedBox(
+                height: 100.0,
+              ),
               Expanded(
                   child: Container(
                 color: Colors.blue,
